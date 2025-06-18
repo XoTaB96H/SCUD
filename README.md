@@ -8,8 +8,8 @@
 
 | Подсистема                    | Репозиторий                                                                                   | Назначение                                                                                                 |
 | ----------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Веб‑панель администратора     | [https://github.com/XoTaB96H/SCUD-admin](https://github.com/ORG_NAME/SCUD-admin)       | Django backend + React/Tailwind UI; управление пользователями, расписаниями и точками доступа; REST API.   |
-| Мобильное приложение GatePass | [https://github.com/XoTaB96H/SCUD-mobile](https://github.com/ORG_NAME/SCUD-mobile)     | Android (Kotlin). NFC/BLE «цифровой пропуск», оффлайн‑токены Ed25519, push‑уведомления о проходах.         |
+| Веб‑панель администратора     | [https://github.com/XoTaB96H/PACS](https://github.com/ORG_NAME/SCUD-admin)       | Django backend + React/Tailwind UI; управление пользователями, расписаниями и точками доступа; REST API.   |
+| Мобильное приложение GatePass | [https://github.com/XoTaB96H/NFCCard](https://github.com/ORG_NAME/SCUD-mobile)     | Android (Kotlin). NFC/BLE «цифровой пропуск», оффлайн‑токены Ed25519, push‑уведомления о проходах.         |
 | Прошивка считывателя          | [https://github.com/XoTaB96H/SCUD-firmware](https://github.com/ORG_NAME/SCUD-firmware) | ESP32‑C6 + FreeRTOS. RFID/NFC, TLS 1.3‑защищённый канал с сервером, управление реле замка, OTA‑обновления. |
 
 
@@ -43,8 +43,8 @@
 
 | Sub‑system          | Repository                                                                                    | Purpose                                                                                 |
 | ------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| Admin Web Panel     | [https://github.com/XoTaB96H/SCUD-admin](https://github.com/ORG_NAME/SCUD-admin)       | Django backend, React/Tailwind UI, REST API, event log, access rule editor.             |
-| GatePass Mobile App | [https://github.com/XoTaB96H/SCUD-mobile](https://github.com/ORG_NAME/SCUD-mobile)     | Android digital pass (NFC/BLE), offline Ed25519 tokens, push notifications.             |
+| Admin Web Panel     | [https://github.com/XoTaB96H/PACS](https://github.com/ORG_NAME/SCUD-admin)       | Django backend, React/Tailwind UI, REST API, event log, access rule editor.             |
+| GatePass Mobile App | [https://github.com/XoTaB96H/NFCCard](https://github.com/ORG_NAME/SCUD-mobile)     | Android digital pass (NFC/BLE), offline Ed25519 tokens, push notifications.             |
 | Reader Firmware     | [https://github.com/XoTaB96H/SCUD-firmware](https://github.com/ORG_NAME/SCUD-firmware) | ESP32‑C6 firmware, RFID/NFC reader, TLS 1.3 secure channel, relay control, OTA updates. |
 
 See individual READMEs for installation and contribution guidelines.
